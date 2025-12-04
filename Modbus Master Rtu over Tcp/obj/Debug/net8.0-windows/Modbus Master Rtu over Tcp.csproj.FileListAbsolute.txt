@@ -1,0 +1,76 @@
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\obj\Debug\net8.0-windows\Modbus Master Rtu over Tcp.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\obj\Debug\net8.0-windows\Views\MainWindow.baml
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\obj\Debug\net8.0-windows\Views\MainWindow.g.cs
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\obj\Debug\net8.0-windows\Modbus Master Rtu over Tcp_MarkupCompile.cache
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\obj\Debug\net8.0-windows\Modbus Master Rtu over Tcp.g.resources
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\obj\Debug\net8.0-windows\Modbus Master Rtu over Tcp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\obj\Debug\net8.0-windows\Modbus Master Rtu over Tcp.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\obj\Debug\net8.0-windows\Modbus Master Rtu over Tcp.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\obj\Debug\net8.0-windows\Modbus Master Rtu over Tcp.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\Modbus Master Rtu over Tcp.exe
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\Modbus Master Rtu over Tcp.deps.json
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\Modbus Master Rtu over Tcp.runtimeconfig.json
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\Modbus Master Rtu over Tcp.dll
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\Modbus Master Rtu over Tcp.pdb
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\DryIoc.dll
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\Prism.dll
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\Prism.DryIoc.Wpf.dll
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\Prism.Wpf.dll
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\ConnectModule.dll
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\Core.dll
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\Interfaces.dll
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\Services.dll
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\ConnectModule.pdb
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\Core.pdb
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\Interfaces.pdb
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\Services.pdb
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\obj\Debug\net8.0-windows\Modbus M.136EAECD.Up2Date
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\obj\Debug\net8.0-windows\Modbus Master Rtu over Tcp.dll
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\obj\Debug\net8.0-windows\refint\Modbus Master Rtu over Tcp.dll
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\obj\Debug\net8.0-windows\Modbus Master Rtu over Tcp.pdb
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\obj\Debug\net8.0-windows\Modbus Master Rtu over Tcp.genruntimeconfig.cache
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\obj\Debug\net8.0-windows\ref\Modbus Master Rtu over Tcp.dll
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\obj\Debug\net8.0-windows\Modbus Master Rtu over Tcp.csproj.AssemblyReference.cache
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\obj\Debug\net8.0-windows\Views\MainWindow.baml
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\obj\Debug\net8.0-windows\Views\MainWindow.g.cs
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\obj\Debug\net8.0-windows\App.g.cs
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\obj\Debug\net8.0-windows\Modbus Master Rtu over Tcp_MarkupCompile.cache
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\obj\Debug\net8.0-windows\Modbus Master Rtu over Tcp.g.resources
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\obj\Debug\net8.0-windows\Modbus Master Rtu over Tcp.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\obj\Debug\net8.0-windows\Modbus Master Rtu over Tcp.AssemblyInfoInputs.cache
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\obj\Debug\net8.0-windows\Modbus Master Rtu over Tcp.AssemblyInfo.cs
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\obj\Debug\net8.0-windows\Modbus Master Rtu over Tcp.csproj.CoreCompileInputs.cache
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\Modbus Master Rtu over Tcp.exe
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\Modbus Master Rtu over Tcp.deps.json
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\Modbus Master Rtu over Tcp.runtimeconfig.json
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\Modbus Master Rtu over Tcp.dll
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\Modbus Master Rtu over Tcp.pdb
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\DryIoc.dll
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\Prism.dll
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\Prism.DryIoc.Wpf.dll
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\Prism.Wpf.dll
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\ConnectModule.dll
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\Core.dll
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\Interfaces.dll
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\MainControlModule.dll
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\Services.dll
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\ConnectModule.pdb
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\Core.pdb
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\Interfaces.pdb
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\MainControlModule.pdb
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\Services.pdb
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\obj\Debug\net8.0-windows\Modbus M.136EAECD.Up2Date
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\obj\Debug\net8.0-windows\Modbus Master Rtu over Tcp.dll
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\obj\Debug\net8.0-windows\refint\Modbus Master Rtu over Tcp.dll
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\obj\Debug\net8.0-windows\Modbus Master Rtu over Tcp.pdb
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\obj\Debug\net8.0-windows\Modbus Master Rtu over Tcp.genruntimeconfig.cache
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\obj\Debug\net8.0-windows\ref\Modbus Master Rtu over Tcp.dll
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\Title.dll
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\Title.pdb
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\DataMonitorModule.dll
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\DataMonitorModule.pdb
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Modbus Master Rtu over Tcp\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll

@@ -1,0 +1,657 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Modbus Master Rtu over Tcp\\Modbus Master Rtu over Tcp.csproj": {}
+  },
+  "projects": {
+    "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\ConnectModule\\ConnectModule.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\ConnectModule\\ConnectModule.csproj",
+        "projectName": "ConnectModule",
+        "projectPath": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\ConnectModule\\ConnectModule.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\ConnectModule\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\c++工具\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Core\\Core.csproj": {
+                "projectPath": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Core\\Core.csproj"
+              },
+              "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Interfaces\\Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Prism.Wpf": {
+              "target": "Package",
+              "version": "[8.1.97, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Core\\Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\c++工具\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Prism.Wpf": {
+              "target": "Package",
+              "version": "[8.1.97, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\DataMonitorModule\\DataMonitorModule.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\DataMonitorModule\\DataMonitorModule.csproj",
+        "projectName": "DataMonitorModule",
+        "projectPath": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\DataMonitorModule\\DataMonitorModule.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\DataMonitorModule\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\c++工具\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Core\\Core.csproj": {
+                "projectPath": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Core\\Core.csproj"
+              },
+              "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Interfaces\\Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Prism.Wpf": {
+              "target": "Package",
+              "version": "[8.1.97, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Interfaces\\Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Interfaces\\Interfaces.csproj",
+        "projectName": "Interfaces",
+        "projectPath": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Interfaces\\Interfaces.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\c++工具\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Core\\Core.csproj": {
+                "projectPath": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\MainControl\\MainControlModule.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\MainControl\\MainControlModule.csproj",
+        "projectName": "MainControlModule",
+        "projectPath": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\MainControl\\MainControlModule.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\MainControl\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\c++工具\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Core\\Core.csproj": {
+                "projectPath": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Core\\Core.csproj"
+              },
+              "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Interfaces\\Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "MaterialDesignColors": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "Prism.Wpf": {
+              "target": "Package",
+              "version": "[8.1.97, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Modbus Master Rtu over Tcp\\Modbus Master Rtu over Tcp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Modbus Master Rtu over Tcp\\Modbus Master Rtu over Tcp.csproj",
+        "projectName": "Modbus Master Rtu over Tcp",
+        "projectPath": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Modbus Master Rtu over Tcp\\Modbus Master Rtu over Tcp.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Modbus Master Rtu over Tcp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\c++工具\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\ConnectModule\\ConnectModule.csproj": {
+                "projectPath": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\ConnectModule\\ConnectModule.csproj"
+              },
+              "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Core\\Core.csproj": {
+                "projectPath": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Core\\Core.csproj"
+              },
+              "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\DataMonitorModule\\DataMonitorModule.csproj": {
+                "projectPath": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\DataMonitorModule\\DataMonitorModule.csproj"
+              },
+              "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Interfaces\\Interfaces.csproj"
+              },
+              "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\MainControl\\MainControlModule.csproj": {
+                "projectPath": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\MainControl\\MainControlModule.csproj"
+              },
+              "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Services\\Services.csproj": {
+                "projectPath": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Services\\Services.csproj"
+              },
+              "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Title\\Title.csproj": {
+                "projectPath": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Title\\Title.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Prism.DryIoc": {
+              "target": "Package",
+              "version": "[8.1.97, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Services\\Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Services\\Services.csproj",
+        "projectName": "Services",
+        "projectPath": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\c++工具\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Core\\Core.csproj": {
+                "projectPath": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Core\\Core.csproj"
+              },
+              "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Interfaces\\Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Title\\Title.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Title\\Title.csproj",
+        "projectName": "Title",
+        "projectPath": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Title\\Title.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Title\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\c++工具\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Core\\Core.csproj": {
+                "projectPath": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Core\\Core.csproj"
+              },
+              "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Interfaces\\Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Prism.Wpf": {
+              "target": "Package",
+              "version": "[8.1.97, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
