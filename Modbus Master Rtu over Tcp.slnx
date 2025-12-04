@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/Modules/">
+    <Project Path="ConnectModule/ConnectModule.csproj" />
+    <Project Path="DataMonitorModule/DataMonitorModule.csproj" Id="de9d6c2d-39fc-4269-800a-1e05ca592c94" />
+    <Project Path="MainControl/MainControlModule.csproj" Id="c6e889a1-7454-44df-85ac-3ed812d12aac" />
+    <Project Path="Title/Title.csproj" Id="4b7c4e5e-6570-4815-87eb-81e3a04ebbcf" />
+  </Folder>
+  <Folder Name="/Services/">
+    <Project Path="Interfaces/Interfaces.csproj" />
+    <Project Path="Services/Services.csproj" />
+  </Folder>
+  <Project Path="Core/Core.csproj" />
+  <Project Path="Modbus Master Rtu over Tcp/Modbus Master Rtu over Tcp.csproj" />
+</Solution>
