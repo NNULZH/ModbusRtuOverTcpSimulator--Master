@@ -1,0 +1,30 @@
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Interfaces\bin\Debug\net8.0-windows\Interfaces.deps.json
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Interfaces\bin\Debug\net8.0-windows\Interfaces.dll
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Interfaces\bin\Debug\net8.0-windows\Interfaces.pdb
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Interfaces\bin\Debug\net8.0-windows\Core.dll
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Interfaces\bin\Debug\net8.0-windows\Core.pdb
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Interfaces\obj\Debug\net8.0-windows\Interfaces.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Interfaces\obj\Debug\net8.0-windows\Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Interfaces\obj\Debug\net8.0-windows\Interfaces.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Interfaces\obj\Debug\net8.0-windows\Interfaces.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Interfaces\obj\Debug\net8.0-windows\Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Interfaces\obj\Debug\net8.0-windows\Interfaces.csproj.Up2Date
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Interfaces\obj\Debug\net8.0-windows\Interfaces.dll
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Interfaces\obj\Debug\net8.0-windows\refint\Interfaces.dll
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Interfaces\obj\Debug\net8.0-windows\Interfaces.pdb
+C:\Users\Lenovo\source\repos\Modbus Master Rtu over Tcp\Interfaces\obj\Debug\net8.0-windows\ref\Interfaces.dll
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Interfaces\bin\Debug\net8.0-windows\Interfaces.deps.json
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Interfaces\bin\Debug\net8.0-windows\Interfaces.dll
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Interfaces\bin\Debug\net8.0-windows\Interfaces.pdb
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Interfaces\bin\Debug\net8.0-windows\Core.dll
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Interfaces\bin\Debug\net8.0-windows\Core.pdb
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Interfaces\obj\Debug\net8.0-windows\Interfaces.csproj.AssemblyReference.cache
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Interfaces\obj\Debug\net8.0-windows\Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Interfaces\obj\Debug\net8.0-windows\Interfaces.AssemblyInfoInputs.cache
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Interfaces\obj\Debug\net8.0-windows\Interfaces.AssemblyInfo.cs
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Interfaces\obj\Debug\net8.0-windows\Interfaces.csproj.CoreCompileInputs.cache
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Interfaces\obj\Debug\net8.0-windows\Interfaces.csproj.Up2Date
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Interfaces\obj\Debug\net8.0-windows\Interfaces.dll
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Interfaces\obj\Debug\net8.0-windows\refint\Interfaces.dll
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Interfaces\obj\Debug\net8.0-windows\Interfaces.pdb
+E:\C#\Modbus Master Project\Modbus Master Rtu over Tcp\Interfaces\obj\Debug\net8.0-windows\ref\Interfaces.dll

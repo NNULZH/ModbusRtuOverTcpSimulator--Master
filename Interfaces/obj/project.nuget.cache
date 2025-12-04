@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "RcR7Ra7IBiU=",
+  "success": true,
+  "projectFilePath": "E:\\C#\\Modbus Master Project\\Modbus Master Rtu over Tcp\\Interfaces\\Interfaces.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.31\\microsoft.xaml.behaviors.wpf.1.1.31.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\prism.wpf\\8.1.97\\prism.wpf.8.1.97.nupkg.sha512"
+  ],
+  "logs": []
+}
