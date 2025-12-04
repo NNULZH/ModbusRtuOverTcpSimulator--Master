@@ -1,0 +1,135 @@
+﻿<UserControl x:Class="DataMonitorModule.Views.DataMonitorView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:DataMonitorModule.Views"
+             xmlns:Core="clr-namespace:Core;assembly=Core"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d" 
+             d:DesignHeight="420" d:DesignWidth="650"
+             xmlns:prism="http://prismlibrary.com/"
+             prism:ViewModelLocator.AutoWireViewModel="True" >
+
+    <UserControl.Resources>
+        <!-- 引用 Core 程序集中的转换器 -->
+        <Core:ByteArrayToHexStringConverter x:Key="ByteArrayToHexStringConverter"/>
+    </UserControl.Resources>
+
+    <Grid Background="#FDFDFD">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="320"/>
+            <!-- 上半区域：显示表格 (自适应高度) -->
+            <RowDefinition Height="120"/>
+            <!-- 下半区域：手写命令 (自动高度) -->
+        </Grid.RowDefinitions>
+
+        <!-- 0. 监控数据表格 -->
+        <!-- 增加了 SelectionUnit 和 SelectionMode 设置 -->
+        <DataGrid Grid.Row="0" 
+                  ItemsSource="{Binding ResponseList}"
+                  AutoGenerateColumns="False"
+                  CanUserAddRows="False"
+                  CanUserDeleteRows="False"
+                  IsReadOnly="True"
+                  HeadersVisibility="Column"
+                  GridLinesVisibility="All"
+                  BorderThickness="1"
+                  BorderBrush="#FFABADB3"
+                  Background="White"
+                  RowHeight="28"
+                  Margin="10"
+                  SelectionUnit="FullRow"
+                  SelectionMode="Single">
+
+            <!-- 【关键修复】重写选中状态的颜色资源 -->
+            <DataGrid.Resources>
+                <!-- 激活选中时的背景色：改为极浅的蓝色，保证深色文字清晰可见 -->
+                <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#E6F2FF"/>
+                <!-- 激活选中时的文字颜色：改为黑色 -->
+                <SolidColorBrush x:Key="{x:Static SystemColors.HighlightTextBrushKey}" Color="Black"/>
+
+                <!-- 失去焦点选中时的背景色：改为浅灰色 -->
+                <SolidColorBrush x:Key="{x:Static SystemColors.InactiveSelectionHighlightBrushKey}" Color="#F0F0F0"/>
+                <!-- 失去焦点选中时的文字颜色 -->
+                <SolidColorBrush x:Key="{x:Static SystemColors.InactiveSelectionHighlightTextBrushKey}" Color="Black"/>
+            </DataGrid.Resources>
+
+            <DataGrid.Columns>
+                <!-- 站号 -->
+                <DataGridTextColumn Header="Slave ID" 
+                                    Binding="{Binding SlaveId}" 
+                                    Width="70"/>
+
+                <!-- 功能码 -->
+                <DataGridTextColumn Header="Func" 
+                                    Binding="{Binding FuncCode}" 
+                                    Width="60"/>
+
+                <!-- 起始地址 -->
+                <DataGridTextColumn Header="Addr" 
+                                    Binding="{Binding StartAddress}" 
+                                    Width="70"/>
+
+                <!-- 解析后的数值 -->
+                <DataGridTextColumn Header="Values (Parsed)" 
+                                    Binding="{Binding Nums}" 
+                                    Width="*"
+                                    Foreground="#0078D7"/>
+
+                <!-- 原始十六进制响应 -->
+                <DataGridTemplateColumn Header="Response (Hex)" Width="200">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding FullCommand, Converter={StaticResource ByteArrayToHexStringConverter}}"
+                                       VerticalAlignment="Center"
+                                       Margin="5,0"
+                                       Foreground="#555"
+                                       FontFamily="Consolas"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- 1. 手动发送区域 -->
+        <Border Grid.Row="1" 
+                Margin="10,0,10,10" 
+                BorderThickness="1" 
+                BorderBrush="#E0E0E0" 
+                CornerRadius="4" 
+                Background="White">
+
+            <Grid Margin="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Text="ManualCommand(没有实现)应在maincontrol比较合适:" 
+                           VerticalAlignment="Center" 
+                           FontWeight="Bold" 
+                           Foreground="#333"
+                           Margin="0,0,10,0"/>
+
+                <!-- 输入框 -->
+                <TextBox Grid.Column="1" 
+                         VerticalAlignment="Center"
+                         VerticalContentAlignment="Center"
+                         ToolTip="e.g. 01 03 00 00 00 01 (Space separated)"
+                         FontFamily="Consolas"
+                         Margin="0,0,10,0"/>
+
+                <!-- 发送按钮 -->
+                <Button Grid.Column="2" 
+                        Content="Send" 
+                        Height="32"
+                        Width="80"
+                        Background="#0078D7" 
+                        BorderThickness="0"
+                        Foreground="White"/>
+            </Grid>
+        </Border>
+
+    </Grid>
+</UserControl>
